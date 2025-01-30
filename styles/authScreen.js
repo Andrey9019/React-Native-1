@@ -1,0 +1,98 @@
+import { StyleSheet } from "react-native";
+
+export const authScreen = StyleSheet.create({
+  imageBackground: {
+    flex: 1,
+    resizeMode: "cover",
+  },
+  container: {
+    flex: 1,
+    justifyContent: "flex-end",
+    alignItems: "center",
+    paddingHorizontal: 20,
+    paddingBottom: 30,
+  },
+  formContainer: {
+    width: "100%",
+    backgroundColor: "#fff",
+    paddingBottom: 50,
+    paddingHorizontal: 16,
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
+    alignItems: "center",
+    top: 35,
+  },
+  avatarContainer: {
+    alignItems: "center",
+    position: "absolute",
+    top: -50,
+  },
+  avatar: {
+    width: 120,
+    height: 120,
+    borderRadius: 99,
+    backgroundColor: "#f2f2f2",
+    justifyContent: "center",
+    alignItems: "center",
+    position: "relative",
+  },
+  addButton: {
+    position: "absolute",
+    bottom: 3,
+    right: 2,
+    width: 25,
+    height: 25,
+    borderRadius: 12.5,
+    backgroundColor: "#FF6C00",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  addButtonText: {
+    color: "#fff",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 20,
+  },
+  input: {
+    width: "100%",
+    height: 50,
+    borderWidth: 1,
+    borderColor: "#ddd",
+    borderRadius: 8,
+    paddingHorizontal: 15,
+    marginBottom: 15,
+    flexDirection: "row",
+    backgroundColor: "#f9f9f9",
+  },
+  inputContainer: {
+    width: "100%",
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  showText: {
+    color: "#3498db",
+    marginLeft: 10,
+  },
+  registerButton: {
+    backgroundColor: "#FF6C00",
+    width: "325",
+    height: 50,
+    borderRadius: 25,
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 20,
+  },
+  registerButtonText: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  loginLink: {
+    color: "#3498db",
+    fontSize: 14,
+  },
+});
